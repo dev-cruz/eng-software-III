@@ -23,4 +23,12 @@ public class BlogController {
         mv.addObject("posts", posts);
         return mv;
     }
+
+    @ResquestMapping(value = "/posts/{id}", method = RequestMethod.GET)
+    public ModelAndView getPostDetails(@PathVariable("id") long id) {
+        ModelAndView mv = new ModelAndView(viewName: "postDetails");
+        Postposts = codeblogService.findById(id);
+        mv.addObject( attributeName: 'post', post);
+        return mv;
+    }
 }

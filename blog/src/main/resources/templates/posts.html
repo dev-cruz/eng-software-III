@@ -1,47 +1,46 @@
 <!DOCTYPE html>
 <html xmlns:th="http://thymeleaf.org">
-<head>
-    <title>Blog</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <head>
+        <title>Blog</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-</head>
+    </head>
 
-<body>
-<header>
-    <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">Blog</a>
-    </nav>
-</header>
+    <body>
 
-<section>
-    <div class="container" style="width: 60%; padding-bottom: 30px;">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb" style="background-color: white; padding-left: 0px;">
-                <li class="breadcrumb-item active" aria-current="page">Posts</li>
-            </ol>
-        </nav>
+        <header>
+            <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#">Blog</a>
+            </nav>
+        </header>
 
-        <div class="card shadow-sm bg-white rounded" style="margin-top: 20px;" th:each="post : ${posts}">
-            <div class="card-body">
-                <p class="card-subtitle mb-2 text-muted" style="font-size: 0.8rem;">
-                    <span th:text="${post.autor}"></span>
-                    <span th:text="${post.data}"></span>
-                </p>
+        <section>
+            <div class="container" style="width: 60%; padding-bottom: 30px;">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb" style="background-color: white; padding-left: 0px;">
+                        <li class="breadcrumb-item active" aria-current="page">Posts</li>
+                    </ol>
+                </nav>
 
-                <a href="#">
-                    <h4 class="card-title" style="font-weight: bold; color: #000000; padding-top: 5px;">
-                        <span th:text="${post.titulo}"></span>
-                    </h4>
-                </a>
+                <div class="card shadow-sm bg-white rounded" style="margin-top: 20px;" th:each="post : ${posts}">
+                    <div class="card-body">
+                        <p class="card-subtitle mb-2 text-muted" style="font-size: 0.8rem;">
+                            <span th:text="${post.autor}"></span>
+                            <span th:text="${post.data}"></span>
+                        </p>
 
-                <p class="card-text">
-                    <span th:utext="${#strings.abbreviate(post.texto,400)} "></span>
-                </p>
+                        <a th:href="${(#mvc.url('BC#getPostDetails').arg(0, post.id)).build()}">
+                            <h4 class="card-title" style="font-weight: bold; color: #000000; padding-top: 5px;">
+                                <span th:text="${post.titulo}"></span>
+                            </h4>
+                        </a>
+
+                        <p class="card-text">
+                            <span th:utext="${#strings.abbreviate(post.texto,400)} "></span>
+                        </p>
+                    </div>
+                </div>
             </div>
-        </div>
-
-    </div>
-
-</section>
-</body>
+        </section>
+    </body>
 </html>
