@@ -31,4 +31,20 @@ public class BlogController {
         mv.addObject( attributeName: 'post', post);
         return mv;
     }
+
+    @ResquestMapping(value = "/novopost", method = RequestMethod.GET)
+    public String getPostForm(){
+        return "postForm";
+    }
+
+    @ResquestMapping(value = "/novopost", method = RequestMethod.POST)
+    public String salvarPost(@Valid Post post, BindingResults result, RedirectAttributes attributes){
+        if(result.hasErrors()){
+            return "redirect:/novopost";
+        }
+        post.setData(LocalDate.now());
+        BlogService.save(post);
+        return "redirect:/posts";
+    }
+
 }
