@@ -27,7 +27,7 @@ public class BlogController {
     @ResquestMapping(value = "/posts/{id}", method = RequestMethod.GET)
     public ModelAndView getPostDetails(@PathVariable("id") long id) {
         ModelAndView mv = new ModelAndView(viewName: "postDetails");
-        Postposts = codeblogService.findById(id);
+        Postposts = blogService.findById(id);
         mv.addObject( attributeName: 'post', post);
         return mv;
     }
@@ -43,7 +43,7 @@ public class BlogController {
             return "redirect:/novopost";
         }
         post.setData(LocalDate.now());
-        BlogService.save(post);
+        blogService.save(post);
         return "redirect:/posts";
     }
 
