@@ -2,9 +2,12 @@
 Projeto da disciplina de Engenharia de Software III
 
 
-Alunos:
+### Alunos:
 
-  Douglas H. Teixeira Barboza
-  Eduardo F. R. Querido
-  João V. Cruz
-  Willian A. Couto
+  > Douglas H. Teixeira Barboza
+  
+  > Eduardo F. R. Querido
+  
+  > João V. Cruz
+  
+  > Willian A. Couto
