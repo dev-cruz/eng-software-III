@@ -40,6 +40,8 @@ public class BlogController {
     @ResquestMapping(value = "/novopost", method = RequestMethod.POST)
     public String salvarPost(@Valid Post post, BindingResults result, RedirectAttributes attributes){
         if(result.hasErrors()){
+            //Adicionando função que recorre a validação da menssagem do usuário:
+            attributes.addFlashAttribute(s: "menssagem", o: "Verifique se os campos obrigatórios foram preenchidos");
             return "redirect:/novopost";
         }
         post.setData(LocalDate.now());
