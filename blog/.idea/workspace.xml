@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51007470-f587-4e4c-aa92-36097f0075fe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/blog/BlogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/blog/BlogApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/blog/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/blog/configuration/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/blog/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/blog/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/blog/model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/blog/model/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/blog/repository/BlogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/blog/repository/BlogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/blog/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/blog/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/blog/service/serviceimpl/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/blog/service/serviceimpl/BlogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/blog/utils/DummyData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/blog/utils/DummyData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/postDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/postDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/postForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/postForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/posts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/validationMenssage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/blog/BlogApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spring/blog/BlogApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\Douglas Henrique\.m2\wrapper\dists\apache-maven-3.6.0-bin\2dakv70gp803gtm5ve1ufmvttn\apache-maven-3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kmWbnDve3mzbYA3C8nerGhlVUA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+  </component>
+  <component name="RunManager">
+    <configuration name="[]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51007470-f587-4e4c-aa92-36097f0075fe" name="Default Changelist" comment="" />
+      <created>1606306328090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606306328090</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="39" width="1186" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606306499862">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="137" y="39" width="1186" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768/-1152.0.1152.864@0.0.1366.768" timestamp="1606306499862" />
+    <state x="463" y="101" key="FileChooserDialogImpl" timestamp="1606306606408">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="101" key="FileChooserDialogImpl/0.0.1366.768/-1152.0.1152.864@0.0.1366.768" timestamp="1606306606408" />
+    <state x="339" y="172" key="run.anything.popup" timestamp="1606306648461">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="172" key="run.anything.popup/0.0.1366.768/-1152.0.1152.864@0.0.1366.768" timestamp="1606306648461" />
+  </component>
+</project>
