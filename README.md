@@ -10,4 +10,3 @@ Projeto da disciplina de Engenharia de Software III
   
   > João V. Cruz
   
-  > Willian A. Couto
